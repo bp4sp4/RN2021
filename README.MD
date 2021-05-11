@@ -1,5 +1,4 @@
 <h1>05/07<h1>
-
 <h2>어려웠던 부분</h2>
 <pre>
 <code>
@@ -11,7 +10,7 @@
 </code>
 </pre>
  AppRegistry.registerComponent(앱이름, ()=> 시작 컴포넌트)
- <h1>구조분해할당</h1>
+ <h2>구조분해할당</h2>
  [객체에서 변수를 재할당하는 방법]
 <pre>
 <code>
