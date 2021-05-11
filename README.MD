@@ -20,11 +20,12 @@
  }
  </pre>
 </code>
- - 구조분해 할당 없이 변수명 재할당
+-- 구조분해 할당 없이 변수명 재할당
 
  const woo = foobar.foo
 
- - 구조분해 할당을 이용하는 방법
+-- 구조분해 할당을 이용하는 방법
+
 <pre>
 <code>
  const {foo:woo} = foobar
@@ -32,7 +33,7 @@
  console.log{foobar} // let basket = {foo. 1000, bar:500}
 </pre>
 </code>
- - React에서 자주 사용되는 구조분해 할당
+-- React에서 자주 사용되는 구조분해 할당
 <pre>
 <code>
  this.state= (
