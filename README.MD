@@ -1,18 +1,18 @@
 <h1>05/14</h1>
 
 <h2>border 속성</h2>
-1. <p>border속성은 크게 borderColor, borderRadius, borderStyle, borderWidth 4가지가있다.</p>
-2. <p>방향은 top부터 시계방향으로 right, bottom,	left순으로 지정한다.
+<p>1. border속성은 크게 borderColor, borderRadius, borderStyle, borderWidth 4가지가있다.</p>
+<p>2. 방향은 top부터 시계방향으로 right, bottom,	left순으로 지정한다.
 
 <h2>margin padding 으로 컴포넌트 위치 지정</h2>
-1. <p>margin을 이용해서 컴포넌트 사이의 상대적 위치를 정의한다.</p>
-2. <p>padding을 이용해서 컴포넌트 테두리로 부터 컴포넌트의 상대적 위치를 정의한다.</p> 
+<p>1. margin을 이용해서 컴포넌트 사이의 상대적 위치를 정의한다.</p>
+<p>2. padding을 이용해서 컴포넌트 테두리로 부터 컴포넌트의 상대적 위치를 정의한다.</p> 
 
 <h2>position을 이용해 컴포넌트 배치하기</h2>
-1. <p>position이 absolute로 지정되면,	해당 요소의 위치는 부모요소의 위치를 기준으로 배
+<p>1. position이 absolute로 지정되면,	해당 요소의 위치는 부모요소의 위치를 기준으로 배
 치된다.</p>
-2. <p>position 속성에는 relative(상대값:기본값)과 absolute(절대값)가 있다.</p>
-3. <p>css의 static, fixed는 지원하지 않는다.</p><br>
+<p>2. position 속성에는 relative(상대값:기본값)과 absolute(절대값)가 있다.</p>
+<p>3. css의 static, fixed는 지원하지 않는다.</p><br>
 <pre>
 <code>
 
