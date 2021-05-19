@@ -15,12 +15,12 @@
 3. <p>css의 static, fixed는 지원하지 않는다.</p><br>
 <pre>
 <code>
-~~~
-A, B, C: <View style={styles.row}>
-D: <View style={[styles.tinyExample, {position: 'absolute', right: 0, bottom: 0}]}>
-E: <Example style={{position: 'absolute', right: 0, bottom: 0}}>
+
+A, B, C: View style={styles.row}>
+D: View style={[styles.tinyExample, {position: 'absolute', right: 0, bottom: 0}]}>
+E: Example style={{position: 'absolute', right: 0, bottom: 0}}>
 row: {
-~~~
+
 flex: 1,
 flexDirection: ‘row’
 },
