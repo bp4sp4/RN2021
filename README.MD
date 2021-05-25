@@ -1,3 +1,46 @@
+<h1>05/21</h1>
+<h2>프로필 카트위치 지정</h2><br>
+<h2>item의 수평 정렬 alignItems속성을 이용</h2>
+
+<pre>
+<code>
+cardImageContainer: {
+alignItems: 'center',    
+backgroundColor: 'white',
+borderWidth: 3,
+borderColor: 'black',
+width: 120,
+height: 120,
+borderRadius: 60,
+<b>marginTop: 30,</b>    
+<b>paddingTop: 15</b>    
+}
+</code>
+</pre>
+<h2>font family지정하기</h2>
+<p>1. css와는 다르게 fontFamily 속성에 여러 개의 폰트를 지정할 수 없다.</p>
+
+<p>2. iOS에서는 monospace	옵션을 사용할 수 없으며,사용할 경우 오류가 발생한다.	
+      “Unrecognized font family ‘monospace’”</p>
+
+<p>안드로이드에서는 지원하지 않는 폰트가 지정되면 기본 폰트를 사용한다.</p>
+
+<p>기본 폰트 외에 다른 폰트를 사용하려면 Platform	컴포넌트를 이용한다.</p>
+<pre>
+<code>
+    .Platform.select({      
+      ios: {
+        fontFamily: 'American Typewriter'
+    },
+    android: {
+        fontFamily: 'monospace'
+    }
+</code>
+</pre>
+
+
+
+
 <h1>05/14</h1>
 
 <h2>border 속성</h2>
