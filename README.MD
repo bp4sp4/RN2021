@@ -12,8 +12,8 @@ borderColor: 'black',
 width: 120,
 height: 120,
 borderRadius: 60,
-<b>marginTop: 30,</b>    
-<b>paddingTop: 15</b>    
+###marginTop: 30,###    
+###paddingTop: 15###    
 }
 </code>
 </pre>
