@@ -1,3 +1,23 @@
+<h1>05/28</h1>
+<p> - 리액트 네이티브에서는 내비게이션 라이브러리를 지원하지 않는다.</p>
+
+<h2>React-Native-CLI의 특징</h2>
+
+<p> - RN개발진들이 운영하고 있어서 업데이트가 빠르다.</p>
+<p> - native 언어인 java,kotln과 Swift를 사용할 수 있다.</p>
+<p> - 안드로이드는 Android studio, iOS는 Xcode가 있어야 한다.</p>
+
+<h2>Expo의 특징</h2>
+
+<p> - 쉬운 build system </p>
+<p> - Android studio, Xcode 없이도 Expo	SDK를 이용해 빌드 및 테스트가 가능하다</p>
+<p> - MacBook없이도 iOS	환경도 빌드가 가능하다.</p>
+<p> - 카메라, 위치,	알림, 센서 등에 접근할 수 있는 라이브러리가 존재한다.</p>
+<p> - 언제든지 React-Native-CLI로 변환이 가능하다.</p>
+<p> - 상대적으로 업데이트가 느리다.</p>
+<p> - native 환경에서 사용하는 third party 라이브러리를 사용할 수 없다는 한계가 있다.</p>
+
+
 <h1>05/21</h1>
 <h2>프로필 카트위치 지정</h2><br>
 <h2>item의 수평 정렬 alignItems속성을 이용</h2>
